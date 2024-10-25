@@ -1,0 +1,8 @@
+Instructions
+
+Create Animator component on your desired object, assign specific character controller via animator controller part of it.
+add new component and add relevant ComboController script of that character
+attach corresponding AnimatorController of character and InputManager to script via Inspector
+open the animator tab via clicking specific animator controller on assets folder
+assign every animation to their corresponding state
+adjust exitTime or animationTime via Inspector
