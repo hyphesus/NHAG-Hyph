@@ -8944,6 +8944,10 @@ PrefabInstance:
       propertyPath: m_Avatar
       value: 
       objectReference: {fileID: 9000000, guid: 508eae7717eded345977775ac67eaff3, type: 3}
+    - target: {fileID: 5384718752811150935, guid: c5326ed03f21b1c42a0c367332768900, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 698b105cf58854aa09e6f0b17ccbcbed, type: 2}
     - target: {fileID: 6064717516889451525, guid: c5326ed03f21b1c42a0c367332768900, type: 3}
       propertyPath: m_Name
       value: PunkV1
@@ -9001,6 +9005,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8778483481362742610, guid: c5326ed03f21b1c42a0c367332768900, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8778483481362742610, guid: c5326ed03f21b1c42a0c367332768900, type: 3}
       propertyPath: comboWindow
       value: 3
       objectReference: {fileID: 0}
@@ -9012,6 +9020,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6064717516889451525, guid: c5326ed03f21b1c42a0c367332768900, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1054019191}
+    - targetCorrespondingSourceObject: {fileID: 6064717516889451525, guid: c5326ed03f21b1c42a0c367332768900, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1054019210}
   m_SourcePrefab: {fileID: 100100000, guid: c5326ed03f21b1c42a0c367332768900, type: 3}
 --- !u!1001 &400514204
 PrefabInstance:
@@ -23778,6 +23789,19 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6873026155255477951, guid: c5326ed03f21b1c42a0c367332768900, type: 3}
   m_PrefabInstance: {fileID: 394739977}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1054019210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1054019190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53e6255d29cb84bba96e6defa33b2648, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlayerLocomotion: {fileID: 1054019190}
 --- !u!1001 &1058778228
 PrefabInstance:
   m_ObjectHideFlags: 0
