@@ -7,6 +7,11 @@ public class TempWeaponChecker : MonoBehaviour
     public bool tempWeapon { get; private set; } = false;
     [SerializeField] private float tempWeaponCooldown = 2f;
 
+    private void Awake()
+    {
+        tempWeapon = false;
+    }
+
     private void OnTriggerEnter(Collider other)
     {
         //Assign the tag for temporary weapons in scene and give them collider (is check=true)
