@@ -9,6 +9,8 @@ TagManager:
   - Player1
   - Item
   - Player2
+  - TemporaryWeapon
+  - LifeSharer
   layers:
   - Default
   - TransparentFX
